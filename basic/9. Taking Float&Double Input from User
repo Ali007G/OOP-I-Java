@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class FloatInput {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter a decimal number: ");
+        double number = input.nextDouble();
+
+        System.out.printf("You entered: %.2f\n", number);
+    }
+}
