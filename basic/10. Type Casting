@@ -1,0 +1,9 @@
+public class TypeCasting {
+    public static void main(String[] args) {
+        double d = 9.8;
+        int i = (int) d;  // Casting double to int
+
+        System.out.println("Original double: " + d);
+        System.out.println("After casting to int: " + i);
+    }
+}
