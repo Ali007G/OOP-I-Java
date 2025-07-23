@@ -1,0 +1,7 @@
+public class DecimalFormatting {
+    public static void main(String[] args) {
+        double price = 123.45678;
+
+        System.out.printf("Formatted price: %.2f\n", price); // Output: 123.46
+    }
+}
